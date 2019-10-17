@@ -1,0 +1,25 @@
+{
+  "name": "sentiment-server",
+  "version": "0.0.1",
+  "description": "Node server using gcloud for sentiment analysis",
+  "scripts": {
+    "start": "node index",
+    "start-dev": "nodemon server"
+  },
+  "author": "gverni",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.2",
+    "twilio": "^3.0.0-rc.16"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "public/*"
+    ]
+  }
+}
