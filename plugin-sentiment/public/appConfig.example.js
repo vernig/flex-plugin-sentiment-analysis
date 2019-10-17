@@ -17,4 +17,9 @@ var appConfig = {
   ytica: false,
   logLevel: 'debug',
   showSupervisorDesktopView: true,
+  componentProps: {
+    AgentDesktopView: {
+      showPanel2: false
+    }
+  }
 };
