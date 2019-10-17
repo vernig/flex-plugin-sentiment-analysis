@@ -1,6 +1,7 @@
 import React from 'react';
 import { FlexPlugin } from 'flex-plugin';
 
+import SentimentMessageBubble from './components/SentimentMessageBubble/SentimentMessageBubble'
 const PLUGIN_NAME = 'SentimentPlugin';
 
 export default class SentimentPlugin extends FlexPlugin {
@@ -16,6 +17,6 @@ export default class SentimentPlugin extends FlexPlugin {
    * @param manager { import('@twilio/flex-ui').Manager }
    */
   init(flex, manager) {
-
+    flex.MessageBubble.Content.replace(<SentimentMessageBubble key="bubble" flex={flex} />);
   }
 }
