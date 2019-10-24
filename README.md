@@ -1,7 +1,8 @@
 # Twilio Flex plugin for sentiment analysis on chat 
 
-This plugin is using [Google Cloud Natural Language API for sentiment analysis](https://cloud.google.com/natural-language/docs/analyzing-sentiment)
+This plugin is using [Google Cloud Natural Language API for sentiment analysis](https://cloud.google.com/natural-language/docs/analyzing-sentiment). Click on image below to see the video:
 
+[![Watch the video](https://img.youtube.com/vi/MzCDltXWq_0/maxresdefault.jpg)](https://youtu.be/MzCDltXWq_0)
 
 # Quickstart
 
